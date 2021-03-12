@@ -1,0 +1,204 @@
+[
+    {
+        "titleQuestion": "Quel est l’autre nom des Absaroka ?",
+        "choices": [
+            {
+                "response": "A- Crows",
+                "is_correct": true
+            },
+            {
+                "response": "B- Abénaquis ",
+                "is_correct": false
+            },
+            {
+                "response": "C- Cheyennes ",
+                "is_correct": false
+            },
+            {
+                "response": "D- Cherokees",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "titleQuestion": "Que signifie le mot “Crows” ? ",
+        "choices": [
+            {
+                "response": "A- Aigles",
+                "is_correct": false
+            },
+            {
+                "response": "B- Corbeaux",
+                "is_correct": true
+            },
+            {
+                "response": "C- Lapins",
+                "is_correct": false
+            },
+            {
+                "response": "D- Loups",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "titleQuestion": "Où vivaient historiquement les Absaroka précisément ?",
+        "choices": [
+            {
+                "response": "A- Dans la Vallée de la rivière Yellowstone",
+                "is_correct": true
+            },
+            {
+                "response": "B- Le long du Missouri",
+                "is_correct": false
+            },
+            {
+                "response": "C- Dans le Nebraska",
+                "is_correct": false
+            },
+            {
+                "response": "D- Le long du Snake",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "titleQuestion": "Où ont été déportés les Absaroka ? ",
+        "choices": [
+            {
+                "response": "A- Dans une réserve près de Billings",
+                "is_correct": true
+            },
+            {
+                "response": "B- Dans une réserve près de Helena",
+                "is_correct": false
+            },
+            {
+                "response": "C- Dans une réserve près de Great Falls",
+                "is_correct": false
+            },
+            {
+                "response": "D- Dans une réserve près de Missoula",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "titleQuestion": "De quelle matière sont faits les tipis des Absaroka ? ",
+        "choices": [
+            {
+                "response": "A- De peaux de vaches",
+                "is_correct": false
+            },
+            {
+                "response": "B- De peaux de moutons",
+                "is_correct": false
+            },
+            {
+                "response": "C- De peaux de bisons",
+                "is_correct": true
+            },
+            {
+                "response": "D- De peaux de serpents",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "titleQuestion": "Comment s’habillaient les femmes Absaroka ?",
+        "choices": [
+            {
+                "response": "A- Des ponchos",
+                "is_correct": false
+            },
+            {
+                "response": "B- Des chemises et des jambières",
+                "is_correct": false
+            },
+            {
+                "response": "C- Des pulls et pantalons faits de peaux de moutons",
+                "is_correct": false
+            },
+            {
+                "response": " D- Des robes faites de peaux de mouton et de cerf, avec des mocassins et des jambières",
+                "is_correct": true
+            }
+        ]
+    },
+    {
+        "titleQuestion": "Comment s’habillaient les hommes Absaroka ?",
+        "choices": [
+            {
+                "response": "A- Des ponchos",
+                "is_correct": false
+            },
+            {
+                "response": "B- Des chemises et des jambières",
+                "is_correct": true
+            },
+            {
+                "response": "C- Des pulls et pantalons faits de peaux de moutons",
+                "is_correct": false
+            },
+            {
+                "response": " D- Des robes faites de peaux de mouton et de cerf, avec des mocassins et des jambières",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "titleQuestion": "Quelle était la particularité des femmes Absaroka ?",
+        "choices": [
+            {
+                "response": "A- Elles portaient des cheveux courts",
+                "is_correct": true
+            },
+            {
+                "response": "B- Elles portaient des cheveux longs",
+                "is_correct": false
+            },
+            {
+                "response": "C- Elles avaient les cheveux rasés",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "titleQuestion": "Quelle était la particularité des hommes Absaroka ?",
+        "choices": [
+            {
+                "response": "A- Ils portaient des cheveux courts",
+                "is_correct": false
+            },
+            {
+                "response": "B- Ils portaient des cheveux longs",
+                "is_correct": true
+            },
+            {
+                "response": "C- Ils avaient les cheveux rasés",
+                "is_correct": false
+            }
+        ]
+    },
+    {
+        "titleQuestion": "Quelle est la population totale des Absaroka ?",
+        "choices": [
+            {
+                "response": "A- 120 000",
+                "is_correct": false
+            },
+            {
+                "response": "B- 12 000",
+                "is_correct": true
+            },
+            {
+                "response": "C- 3000",
+                "is_correct": false
+            },
+            {
+                "response": "D- 90 000",
+                "is_correct": false
+            }
+        ]
+    }
+]

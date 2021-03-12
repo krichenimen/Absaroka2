@@ -1,0 +1,47 @@
+Projet mini site web : Absaroka 2
+ 
+Vitrine
+ 
+Lien du site : http://adartza.iutbayonne.univ-pau.fr/~ikrichen/Absaroka2
+ 
+LP Métiers du Numérique 2020-2021 projet tutoré ACO.info de mini sites web / 11 mars 2021
+ 
+ Membres :
+            	— Baldassini Franck (alternant) :
+                            	Profil d’entrée : Informatique
+                            	Profil de sortie : Informatique
+            	— Catalifaud Clément :
+                            	Profil d’entrée : Gestion de projet
+                            	Profil de sortie : Gestion de projet
+            	— Imarazene Élodie (Membre d’origine) :
+                            	Profil d’entrée : Gestion de projet
+                            	Profil de sortie : Gestion de projet
+            	— Krichen Imen (Membre d’origine) :
+                            	Profil d’entrée : Gestion de projet
+                            	Profil de sortie : Gestion de projet
+ 
+Public cible :
+ 
+Le site vise les enfants âgés de 6 à 11 ans, voulant apprendre des choses sur la tribu Absaroka.
+
+Description :
+ 
+Ce projet, réalisé en séance ACO-info de Sémiologie, est parti d’une image d’un tambour chamanique.
+ 
+Au départ, à partir de cette œuvre, lors du projet de sémiologie, nous étions partis sur l’idée de créer un site pour un historien voulant partager son savoir.
+ 
+Après cela, nous avons pris en compte les critiques du jury de ce projet, nous avons donc décidé de modifier notre cible.
+En effet, il nous a été conseillé de nous focaliser sur la cible des enfants.
+Dès lors, nous nous sommes penchés sur le fait de réaliser un site web en HTML, CSS et Javascript, se rapprochant du thème des enfants.
+Nous avons donc décidé d’orienter ce site sur le fait qu’il soit simple, ludique et interactif pour des enfants (allant de 6 à 11 ans).
+Nous avons modifié la charte graphique, avec la création d’un nouveau logo plus simple et facile à identifier pour notre public cible. Nous sommes partis sur des couleurs et des polices assez simples, se rapprochant de l’univers des enfants.
+ Nous nous sommes réparti les tâches en fonction de nos connaissances et de nos compétences et en fonction des différentes parties du site. 
+Concernant la programmation, nous avons utilisé HTML5, CSS3, Javascript et JSON ainsi que Bootstrap. Pour la typographie, nous avons utilisé la police "KG Corner intheSky". 
+Nous avons utilisé comme éditeur : Visual studio et code.
+Le site est donc purement dans un but éducatif. Nous avons une page d’accueil (Accueil.png) animée, par exemple le fond, qui possède des nuages flottants, ainsi que des corbeaux volants, en référence à la tribu des Absaroka (les Crows). Nous avons également des zones cliquables avec les tipis et le tambour, des popup s’affichent avec des définitions détaillées. Le menu est assez visible, avec sa couleur jaune, afin que les enfants puissent correctement se repérer.
+Nous avons ensuite des pages de jeux, avec deux catégories d’âges distincts (6-8 ans et 9-11 ans). Concernant la catégorie d’âge de 6 à 8 ans, nous avons décidé de faire un jeu de peinture, afin qu’il puisse reproduire l’image de droite à l’aide de différents outils présents à gauche. Ils peuvent, à la fin de leur travail, télécharger leur œuvre et l’imprimer s'ils le souhaitent. (peinture.png)
+Pour la page de jeu des 9 à 11 ans, nous avons élaboré un quiz, de 5 questions. (quiz.png)
+Nous avons également un formulaire afin que les enfants nous envoient des images d’eux déguisés en amérindiens. (formulaire.png)
+Enfin nous pouvons voir une page avec des contes et des chants en rapport avec le domaine amérindien. (contes&chants.png)
+Pour conclure, nous avons sur toutes les pages, en cliquant sur le logo, un retour possible à la page d’accueil.
+

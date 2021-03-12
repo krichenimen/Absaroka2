@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1,
+         shrink-to-fit=no" />
+      <meta name="description" content="C'est site educatif ludique pour les
+         enfants, il explique la vie des Absaroka." />
+      <meta name="author" content="" />
+      <title>Absaroka - Quiz</title>
+      <!-- Favicon-->
+      <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+      <!-- font awesome-->
+      <link rel="stylesheet" href="fonts/font-awsome/css/font-awesome.min.css">
+      <!-- Core theme CSS (includes Bootstrap)-->
+      <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+      <link href="css/style.css" rel="stylesheet" />
+      
+   </head>
+   <body>
+      <div>
+         <!--class="slider"-->
+         <!-- Navigation-->
+         <header>
+            <nav class="navbar navbar-expand-lg text-uppercase absolute-top">
+               <div class="container">
+                  <a class="navbar-brand" href="index.html">
+                  <img class="logo" src="img/logo.svg" alt="logo"/>
+                  </a>
+                  <button class="navbar-toggler navbar-toggler-right btn-warning font-weight-bold rounded" type="button"
+                     data-toggle="collapse" data-target="#navbarResponsive"
+                     aria-controls="navbarResponsive" aria-expanded="false"
+                     aria-label="Toggle navigation">
+                  MENU
+                  <i class="fa fa-bars"></i>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarResponsive">
+                     <ul class="navbar-nav ml-auto">
+                        <li class="dropdown nav-item mx-lg-1">
+                           <a class="boutonmenuprincipal nav-link rounded" >6 - 8 ans</a>
+                           <div class="dropdown-child rounded">
+                              <a href="coloriage.html">Peinture</a>
+                              <a href="#">Totem</a>
+                           </div>
+                        </li>
+                        <li class="dropdown nav-item mx-lg-1">
+                           <a class="boutonmenuprincipal nav-link rounded">9 - 11 ans</a>
+                           <div class="dropdown-child rounded">
+                              <a href="quiz.html">Quiz</a>
+                              <a href="#">Puzzle</a>
+                           </div>
+                        </li>
+                        <li class="nav-item mx-lg-1">
+                           <a href="contes-chansons.html" class="boutonmenuprincipal nav-link rounded">contes & chansons</a>
+                        </li>
+                        <li class="nav-item mx-lg-1">
+                           <a href="contact.html" class="boutonmenuprincipal nav-link rounded">Contact</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         </header>
+         
+         <div class="masthead bg-container-uni quiz-container">
+            <div class="container">
+               <div class="consigne-container">
+                  <button class="close" type="button" id="close">
+                     <span aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i>
+                     </span>
+                  </button>
+                  <h1 class="consigne-label">Répondez au quiz en cochant un seul cercle devant la réponse correcte, il faut répondre au moins à trois questions pour gagner. Bonne chance !</h1>
+               </div>
+               <div class="quiz" id="quiz">
+               </div>
+            </div>
+        
+            <!-- Modal -->
+            <div class="modal modal-quiz fade" id="ResultQuizModal" tabindex="-1" role="dialog" aria-labelledby="ResultQuizModalLabel"
+               aria-hidden="true">
+               <div class="modal-dialog modal-xl" role="document">
+                  <div class="modal-content">
+                     <button class="close" type="button" data-dismiss="modal"
+                        aria-label="Close">
+                        <span aria-hidden="true"><i class="fas fa-times"></i></span>
+                     </button>
+                     <div class="modal-body text-center">
+                        <div class="container">
+                           <div class="row justify-content-center">
+                              <div class="col-lg-8">
+                                 <!--  Modal - Title-->
+                                 <h2 class="graph-modal-titletext-uppercase mb-0" id="ResultQuizModalLabel"></h2>
+                                 <!-- Icon Divider-->
+                                 <div class="divider-custom">
+                                    <div class="divider-custom-line"></div>
+                                    <div class="divider-custom-icon"><i class="fas
+                                          fa-star"></i></div>
+                                    <div class="divider-custom-line"></div>
+                                 </div>
+                                 <p id="message"></p>
+                              </div>
+                              <div id="results"></div>
+                              <button class="btn btn-warning" id="restart">Réessayer</button>
+                           </div>
+                        </div>
+                     </div>
+                     <!-- <div>
+                        <button id="reloadQuestion">Ressayer</button>
+                     </div> -->
+                  </div>
+               </div>
+            </div>
+         </div>
+         <!--<div class="cursor"></div>-->
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="js/quiz.js"></script>
+   </body>
+</html>

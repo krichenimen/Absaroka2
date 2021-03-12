@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="fr">
+   <head>
+      <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1,
+         shrink-to-fit=no" />
+      <meta name="description" content="C'est site educatif ludique pour les
+         enfants, il explique la vie des Absaroka." />
+      <meta name="author" content="" />
+      <title>Absaroka</title>
+      <!-- Favicon-->
+      <link rel="icon" type="image/x-icon" href="img/favicon.png" />
+      <!-- font awesome-->
+      <link rel="stylesheet" href="fonts/font-awsome/css/font-awesome.min.css">
+      <!-- Core theme CSS (includes Bootstrap)-->
+      <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+      <link href="css/style.css" rel="stylesheet" />
+   </head>
+   <body>
+      <div>
+         <!--class="slider"-->
+         <header>
+            <nav class="navbar navbar-expand-lg text-uppercase absolute-top">
+               <div class="container">
+                  <a class="navbar-brand" href="index.html">
+                  <img class="logo" src="img/logo.svg" alt="logo"/>
+                  </a>
+                  <button class="navbar-toggler navbar-toggler-right btn-warning font-weight-bold rounded" type="button"
+                     data-toggle="collapse" data-target="#navbarResponsive"
+                     aria-controls="navbarResponsive" aria-expanded="false"
+                     aria-label="Toggle navigation">
+                  MENU
+                  <i class="fa fa-bars"></i>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarResponsive">
+                     <ul class="navbar-nav ml-auto">
+                        <li class="dropdown nav-item mx-lg-1">
+                           <a class="boutonmenuprincipal nav-link rounded" >6 - 8 ans</a>
+                           <div class="dropdown-child rounded">
+                              <a href="coloriage.html">Peinture</a>
+                              <a href="#">Totem</a>
+                           </div>
+                        </li>
+                        <li class="dropdown nav-item mx-lg-1">
+                           <a class="boutonmenuprincipal nav-link rounded">9 - 11 ans</a>
+                           <div class="dropdown-child rounded">
+                              <a href="quiz.html">Quiz</a>
+                              <a href="#">Puzzle</a>
+                           </div>
+                        </li>
+                        <li class="nav-item mx-lg-1">
+                           <a href="contes-chansons.html" class="boutonmenuprincipal nav-link rounded">contes & chansons</a>
+                        </li>
+                        <li class="nav-item mx-lg-1">
+                           <a href="contact.html" class="boutonmenuprincipal nav-link rounded">Contact</a>
+                        </li>
+                     </ul>
+                  </div>
+               </div>
+            </nav>
+         </header>
+         <section class="masthead bg-container">
+            <img class="nuage1" src="img/nuage1.png" alt="nuage1">
+            <img class="nuage2" src="img/nuage2.png" alt="nuage2">
+            <div class="d-flex justify-content-between">
+               <section data-toggle="modal" data-target="#tipi">
+                  <img class="tipi svg-hover" src="img/tipi1.svg" alt="tipi">
+               </section>
+
+               <!-- corbeaux -->
+               <div class="bird-container bird-container--one">
+                  <div class="bird bird--one"></div>
+               </div>
+               <div class="bird-container bird-container--three">
+                  <div class="bird bird--three"></div>
+               </div>
+
+               <div class="bird-container bird-container--four">
+                  <div class="bird bird--four"></div>
+               </div>
+
+               <section class="tambour">
+                  <section class="d-flex justify-content-center">
+                     <img class="premier-baton" src="img/baton2.png" alt="baton num 1">
+                     <img class="deuxieme-baton" src="img/baton1.png" alt="baton num 2">
+                  </section>
+                  <section data-toggle="modal" data-target="#tambour">
+                     <img class="svg-hover" src="img/tambour.svg" alt="tambour">
+                  </section>
+               </section>
+               <section data-toggle="modal" data-target="#tipi">
+                  <img class="tipi svg-hover" src="img/tipi2.svg" alt="tipi">
+               </section>
+            </div>
+         </section>
+         <!--<div class="cursor"></div>-->
+      </div>
+      <!-- modal tipi -->
+      <div class="graph-modal modal fade" id="tipi" tabindex="-1"
+         role="dialog" aria-labelledby="tipiLabel"
+         aria-hidden="true">
+         <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+               <button class="close" type="button" data-dismiss="modal"
+                  aria-label="Close">
+               <span aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i>
+               </span>
+               </button>
+               <div class="modal-body text-center">
+                  <div class="container">
+                     <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                           <!-- Modal - Title-->
+                           <h2 class="graph-modal-title text-uppercase mb-0" id="tipiLabel">Les
+                              Tipis
+                           </h2>
+                           <!-- Icon Divider-->
+                           <div class="divider-custom">
+                              <div class="divider-custom-line"></div>
+                              <div class="divider-custom-icon"><i class="fas
+                                 fa-star"></i></div>
+                              <div class="divider-custom-line"></div>
+                           </div>
+                           <!-- Modal - Image-->
+                           <section>
+                              <div><img class="img-fluid rounded mb-5"
+                                 src="img/Tipi-indien.jpg" alt="" /></div>
+                              <!-- Modal - Text-->
+                              <p class="mb-5">
+                                 Le « tipi » (vient de l’anglais : tepee, qui provient lui-même du dakota thípi, qui signifie « habitation ») est un habitat traditionnel des Nord-Amérindiens. C'est une tente en forme de cône, traditionnellement utilisée par certaines tribus nord-amérindiennes et notamment par la tribu Absaroka.
+                              </p>
+                           </section>
+
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <!-- modal tambour-->
+      <div class="graph-modal modal fade" id="tambour" tabindex="-1"
+         role="dialog" aria-labelledby="tambourLabel"
+         aria-hidden="true">
+         <div class="modal-dialog modal-xl" role="document">
+            <div class="modal-content">
+               <button class="close" type="button" data-dismiss="modal"
+                  aria-label="Close">
+               <span aria-hidden="true"><i class="fa fa-times" aria-hidden="true"></i>
+               </span>
+               </button>
+               <div class="modal-body text-center">
+                  <div class="container">
+                     <div class="row justify-content-center">
+                        <div class="col-lg-8">
+                           <!--  Modal - Title-->
+                           <h2 class="graph-modal-title text-uppercase mb-0" id="tambourLabel">LE TAMBOUR</h2>
+                           <!-- Icon Divider-->
+                           <div class="divider-custom">
+                              <div class="divider-custom-line"></div>
+                              <div class="divider-custom-icon"><i class="fas
+                                 fa-star"></i></div>
+                              <div class="divider-custom-line"></div>
+                           </div>
+                           <!-- Modal - Image-->
+                           <section>
+                              <div><img class="img-fluid rounded mb-5"
+                                 src="img/tambour-chamisme.jpg" alt="" /></div>
+                              <!-- Modal - Text-->
+                              <p class="mb-5">Pendant les cérémonies, il est défendu de déposer des objets dessus et de se pencher sur les tambours. Comme ce sont des objets sacrés, quelqu'un veille à ce que personne ne s'en approche sous l'effet  de l'alcool ou des drogues.
+                              </p>
+                           </section>
+                        </div>
+                     </div>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </div>
+      <audio id="myAudio">
+         <source src="son-tambour_mixage-final.mp3" type="audio/mpeg">
+         Your browser does not support the audio element.
+       </audio>
+       <nav class="bouton-sticky">
+         <button class="btn btn-warning" id="btn-pause" onclick="pauseAudio()" type="button">
+            <i class="fa fa-pause" aria-hidden="true"></i>
+         </button> 
+         <button class="btn btn-warning"  id="btn-play" onclick="playAudio()" type="button">
+            <i class="fa fa-play" aria-hidden="true"></i>
+         </button>
+       </nav>
+       <nav class="nav-download-container">
+         <div class="nav-download">
+            <input type="checkbox">
+            <span></span>
+            <span></span>
+            <div class="menu">
+               <li><a href="fichiers/outils.zip" download="">Outils</a></li>
+               <li><a href="fichiers/site.zip" download="">Site</a></li>
+               <li><a href="fichiers/soutenance.zip" download="">Soutenance</a></li>
+               <li><a href="fichiers/vitrine.zip" download="">Vitrine</a></li>
+            </div>
+         </div>
+       </nav>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"></script>
+      <script src="js/sound.js"></script>
+   </body>
+</html>

@@ -1,0 +1,108 @@
+﻿Projet mini site web : Absaroka 2
+ 
+Outils
+ 
+LP Métiers du Numérique 2020-2021 projet tutoré ACO.info de mini sites web / 11 mars 2021
+ Membres :
+                    — Baldassini Franck (alternant) :
+                                    Profil d’entrée : Informatique
+                                    Profil de sortie : Informatique
+                    — Catalifaud Clément :
+                                    Profil d’entrée : Gestion de projet
+                                    Profil de sortie : Gestion de projet
+                    — Imarazene Élodie (Membre d’origine) :
+                                    Profil d’entrée : Gestion de projet
+                                    Profil de sortie : Gestion de projet
+                    — Krichen Imen (Membre d’origine) :
+                                    Profil d’entrée : Gestion de projet
+                                    Profil de sortie : Gestion de projet
+
+
+Cadre : Projet Tutoré ACO-Info de création de mini-sites web – Absaroka 2
+Lien du site : http://adartza.iutbayonne.univ-pau.fr/~ikrichen/Absaroka2
+
+
+Framework HTML/CSS 
+Ce site a été réalisé avec Bootstrap 4.5.3 car plusieurs membres de l’équipe ont des connaissances dans ce framework. De plus, nous avons besoin d’avoir un site responsive notamment pour les tablettes tactiles car les parents se servent souvent des tablettes pour faire jouer leurs enfants dessus. 
+Lien : https://getbootstrap.com
+
+
+Simulation de base de données
+Le JSON nous a servi pour simuler une base de données pour stocker les questions de notre quiz.
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Animations JavaScript 
+Ces questions sont ensuite choisies au hasard grâce à une fonction JavaScript
+  
+
+Avant rafraîchissement de la page  
+
+
+Après rafraîchissement de la page  
+
+
+Fonction JavaScript pour permettre de dessiner quand on fait un clic gauche sur la page de coloriage
+  
+
+      Avant clic gauche sur la feuille                               Après clic gauche sur la feuille    
+Animations CSS
+Animation CSS des bâtons dans la page d’accueil
+  
+  
+  
+
+Animation d’un nuage
+  
+
+  
+
+            
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Liens de code repris :
+
+
+Animation corbeaux :https://codepen.io/matchboxhero/pen/RLebOY
+Animation menu : https://codepen.io/kkrueger/pen/qfoLa
+Coloriage : http://www.williammalone.com/articles/create-html5-canvas-javascript-drawing-app/#demo-simple
+https://github.com/raksa/coloring
+Vidéo popup : https://codepen.io/seo2019/pen/QeLLeL
+
+
+
+
+Partage du code :
+
+Afin de pouvoir partager notre travail facilement, nous avons utilisé GitHub : https://github.com/krichenimen/Absaroka2
